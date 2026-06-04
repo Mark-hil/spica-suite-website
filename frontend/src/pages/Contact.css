@@ -1,0 +1,92 @@
+/* HERO */
+.contact-hero{position:relative;padding:160px 0 100px;overflow:hidden}
+.contact-hero__bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.contact-hero__overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(13,27,75,0.92) 0%,rgba(13,27,75,0.6) 60%,rgba(13,27,75,0.25) 100%)}
+.contact-hero__content{position:relative;z-index:1;max-width:640px}
+.contact-pill-tag{display:inline-block;background:rgba(255,255,255,0.15);color:white;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:5px 14px;border-radius:50px;margin-bottom:14px;border:1px solid rgba(255,255,255,0.2)}
+.contact-hero__content h1{font-family:'Syne',sans-serif;font-size:clamp(2rem,5vw,3.4rem);font-weight:800;color:white;margin:12px 0 16px;line-height:1.1}
+.contact-hero__content p{color:rgba(255,255,255,0.75);font-size:17px;margin-bottom:28px}
+.hero-contact-pills{display:flex;gap:12px;flex-wrap:wrap}
+.hero-contact-pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.12);color:white;padding:8px 16px;border-radius:50px;font-size:13px;font-weight:500;border:1px solid rgba(255,255,255,0.2);transition:background .2s}
+.hero-contact-pill:hover{background:rgba(255,255,255,0.22)}
+
+/* MAIN */
+.contact-main{padding:80px 0}
+.contact-layout{display:grid;grid-template-columns:1fr 1.8fr;gap:48px;align-items:flex-start}
+
+/* SIDEBAR */
+.contact-info-card,.contact-socials-card{background:#0d1b4b;border-radius:18px;padding:32px 28px;margin-bottom:20px}
+.contact-info-card h3{font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:800;color:white;margin-bottom:28px}
+.cinfo-item{display:flex;gap:16px;margin-bottom:22px;align-items:flex-start}
+.cinfo-icon{width:40px;height:40px;border-radius:10px;background:rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0;color:#f59e0b}
+.cinfo-label{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,0.4);margin-bottom:4px}
+.cinfo-item a,.cinfo-item span{display:block;font-size:13px;color:rgba(255,255,255,0.8);transition:color .2s;line-height:1.7}
+.cinfo-item a:hover{color:white}
+.contact-socials-card h4{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;color:rgba(255,255,255,0.6);text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.socials-list{display:flex;flex-direction:column;gap:12px}
+.social-row{display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.75);transition:all .2s;padding:8px 10px;border-radius:10px}
+.social-row:hover{background:rgba(255,255,255,0.08);color:white}
+.social-row__icon{width:36px;height:36px;background:rgba(255,255,255,0.1);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.social-row__label{display:block;font-size:12px;font-weight:600;color:rgba(255,255,255,0.5)}
+.social-row__handle{display:block;font-size:13px;font-weight:500;color:rgba(255,255,255,0.85)}
+.whatsapp-btn{display:flex;align-items:center;justify-content:center;gap:10px;background:#25D366;color:white;padding:15px;border-radius:14px;font-family:'Syne',sans-serif;font-weight:700;font-size:15px;transition:all .3s;border:2px solid #25D366}
+.whatsapp-btn:hover{background:#1ebe5d;transform:translateY(-2px);box-shadow:0 8px 24px rgba(37,211,102,0.35)}
+
+/* FORM PANEL */
+.contact-form-panel{background:white;border-radius:20px;padding:44px;border:1px solid #e2e8f0;box-shadow:0 8px 48px rgba(13,27,75,0.08)}
+.form-header{margin-bottom:32px}
+.form-header h2{font-family:'Syne',sans-serif;font-size:1.7rem;font-weight:800;color:#0d1b4b;margin-bottom:6px}
+.form-header p{font-size:14px;color:#64748b}
+.contact-form{display:flex;flex-direction:column;gap:20px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-field{display:flex;flex-direction:column;gap:6px}
+.form-field label{font-size:13px;font-weight:600;color:#0d1b4b;letter-spacing:.02em}
+.req{color:#ef4444}
+.form-field input,.form-field select,.form-field textarea{border:1.5px solid #e2e8f0;border-radius:10px;padding:12px 16px;font-size:14px;font-family:'Inter',sans-serif;color:#0f172a;background:#f8faff;transition:border-color .2s,box-shadow .2s;width:100%;resize:vertical}
+.form-field input:focus,.form-field select:focus,.form-field textarea:focus{outline:none;border-color:#1a3fa8;box-shadow:0 0 0 3px rgba(26,63,168,.1);background:white}
+.form-error{display:flex;align-items:center;gap:5px;font-size:12px;color:#dc2626}
+.form-alert{background:#fef2f2;border:1px solid #fecaca;color:#dc2626;padding:12px 16px;border-radius:10px;font-size:14px}
+
+/* Budget pills */
+.budget-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.budget-pill{background:#f1f5f9;color:#64748b;border:1.5px solid #e2e8f0;border-radius:50px;padding:7px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:all .2s}
+.budget-pill:hover{border-color:#1a3fa8;color:#1a3fa8;background:#eff6ff}
+.budget-pill--active{background:#1a3fa8;color:white;border-color:#1a3fa8}
+
+.form-submit-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:#1a3fa8;color:white;padding:16px 36px;border-radius:50px;font-family:'Syne',sans-serif;font-weight:700;font-size:16px;border:none;cursor:pointer;transition:all .3s;margin-top:4px}
+.form-submit-btn:hover:not(:disabled){background:#0d1b4b;transform:translateY(-2px);box-shadow:0 8px 24px rgba(13,27,75,0.3)}
+.form-submit-btn:disabled{opacity:.7;cursor:not-allowed}
+.spinner{width:16px;height:16px;border:2px solid rgba(255,255,255,0.3);border-top-color:white;border-radius:50%;animation:spin .7s linear infinite;display:inline-block}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* SUCCESS */
+.form-success{text-align:center;padding:60px 24px}
+.form-success__icon{color:#1a3fa8;margin-bottom:16px}
+.form-success h3{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;color:#0d1b4b;margin-bottom:10px}
+.form-success p{color:#64748b;margin-bottom:28px;font-size:15px;line-height:1.7}
+.btn-reset{background:#1a3fa8;color:white;padding:12px 28px;border-radius:50px;font-family:'Syne',sans-serif;font-weight:700;font-size:14px;border:none;cursor:pointer;transition:all .3s}
+.btn-reset:hover{background:#0d1b4b}
+
+/* MAP */
+.map-section{position:relative;height:320px;overflow:hidden}
+.map-img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.7)}
+.map-overlay{position:absolute;inset:0;background:rgba(13,27,75,0.45);display:flex;align-items:center;justify-content:center}
+.map-badge{display:inline-flex;align-items:center;gap:8px;background:white;color:#0d1b4b;padding:12px 24px;border-radius:50px;font-family:'Syne',sans-serif;font-weight:700;font-size:15px;box-shadow:0 8px 32px rgba(0,0,0,0.2)}
+
+/* FAQ */
+.faq-section{padding:80px 0;background:#f8faff}
+.faq-header{text-align:center;margin-bottom:48px}
+.faq-pill-tag{display:inline-block;background:#dbeafe;color:#1a3fa8;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:5px 14px;border-radius:50px;margin-bottom:12px}
+.faq-header h2{font-family:'Syne',sans-serif;font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;color:#0d1b4b}
+.faq-list{max-width:740px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.faq-item{background:white;border-radius:14px;border:1px solid #e2e8f0;overflow:hidden;transition:box-shadow .2s}
+.faq-item--open{box-shadow:0 4px 20px rgba(13,27,75,0.1);border-color:#1a3fa8}
+.faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;padding:20px 24px;background:none;border:none;cursor:pointer;font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:#0d1b4b;text-align:left;gap:16px}
+.faq-chevron{font-size:22px;color:#1a3fa8;flex-shrink:0;font-weight:400}
+.faq-a{padding:0 24px 20px;font-size:14px;color:#64748b;line-height:1.75}
+
+@media(max-width:900px){
+  .contact-layout{grid-template-columns:1fr;gap:32px}
+  .contact-form-panel{padding:28px 20px}
+  .form-row{grid-template-columns:1fr}
+}
