@@ -456,6 +456,7 @@
 }
 
 @media (max-width: 600px) {
+  .hero__title { font-size: clamp(1.6rem, 10vw, 2.2rem); }
   .stats-grid { grid-template-columns: 1fr; gap: 16px; }
   .services-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: 1fr; } /* Stack gallery images on mobile */
