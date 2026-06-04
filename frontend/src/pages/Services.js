@@ -74,7 +74,7 @@ const SERVICES = [
     title: 'Travel & Tour',
     tagline: 'The world is closer than you think.',
     img: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=900&q=85',
-    desc: 'Curated travel packages and end-to-end tour management for individuals, couples, and groups. From West African getaways to international adventures — we handle everything seamlessly.',
+    desc: 'Curated travel packages and end-to-end tour management for individuals, couples, and groups. From West African getaways to international adventures. We handle everything seamlessly.',
     features: ['International Travel Packages','Group Tour Management','Hotel & Flight Booking','Visa Assistance','Custom Itinerary Planning','Tour Guide Services'],
     gallery: [
       'https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=400&q=80',
@@ -99,7 +99,7 @@ export default function Services() {
         <div className="container svc-hero__content">
           <span className="pill-tag">What We Offer</span>
           <h1>Six Ways We Help<br />You Shine</h1>
-          <p>Every service is crafted with one mission — creating unforgettable, magical moments.</p>
+          <p>Every service is crafted with one mission. Creating unforgettable, magical moments.</p>
         </div>
       </div>
 
@@ -194,7 +194,7 @@ export default function Services() {
         <div className="svc-bottom-cta__overlay" />
         <div className="container svc-bottom-cta__inner">
           <h2>Not sure which service you need?</h2>
-          <p>Talk to us — we'll help you figure out the perfect package for your goals.</p>
+          <p>Talk to us. We'll help you figure out the perfect package for your goals.</p>
           <Link to="/contact" className="cta-gold-btn">Let's Talk <FiArrowRight /></Link>
         </div>
       </section>

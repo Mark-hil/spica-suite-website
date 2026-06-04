@@ -76,7 +76,7 @@ export default function Home() {
             Creating <span className="hero__accent">Unforgettable</span><br />and Magical Moments
           </h1>
           <p className="hero__sub">
-            From stunning media coverage and live streaming to event planning and travel — we bring your vision to life with creativity and precision.
+            From stunning media coverage and live streaming to event planning and travel. We bring your vision to life with creativity and precision.
           </p>
           <div className="hero__actions">
             <Link to="/services" className="btn-primary hero__btn">Our Services <FiArrowRight /></Link>
