@@ -100,7 +100,7 @@ export default function Contact() {
                 <div className="cinfo-icon"><FiMapPin /></div>
                 <div>
                   <span className="cinfo-label">Location</span>
-                  <span>Accra, Ghana</span>
+                  <span>Kumasi, Ghana</span>
                   <span>Serving clients nationwide & internationally</span>
                 </div>
               </div>
@@ -203,12 +203,18 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* MAP PLACEHOLDER */}
+      {/* MAP SECTION */}
       <div className="map-section">
-        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1600&q=80" alt="Accra Ghana" className="map-img" />
-        <div className="map-overlay">
-          <div className="map-badge"><FiMapPin /> Accra, Ghana</div>
-        </div>
+        <iframe
+          title="Spica Suite Consult Location"
+          src="https://maps.google.com/maps?q=Kumasi,%20Ghana&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          width="100%"
+          height="100%"
+          style={{ border: 0, filter: 'saturate(0.8)' }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
 
       {/* FAQ */}

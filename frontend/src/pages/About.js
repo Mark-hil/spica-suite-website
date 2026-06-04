@@ -4,28 +4,29 @@ import { FiTarget, FiHeart, FiZap, FiArrowRight, FiStar, FiUsers, FiCheckCircle,
 import './About.css';
 
 const TEAM = [
-  { name: 'Abena Mensah', role: 'CEO & Lead Event Planner', img: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&q=85', color: '#1a3fa8' },
-  { name: 'Kwame Asante', role: 'Head of Media & Photography', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=85', color: '#7c3aed' },
-  { name: 'Ama Boateng', role: 'Creative Director & Designer', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=85', color: '#db2777' },
-  { name: 'Kofi Darko', role: 'Head of Travel & Logistics', img: 'https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&q=85', color: '#0891b2' },
+  { name: 'Mr. Achampong Buabeng Jnr', role: 'CEO & Lead Event Planner', img: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&q=85', color: '#1a3fa8' },
+  { name: 'Mrs. Dorothy Achampong-Buabeng', role: 'Head of Media', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=85', color: '#7c3aed' },
+  { name: 'Mr. Derrick', role: 'Head of Photography & Designer', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=85', color: '#db2777' },
+  { name: 'Mr. Edward Adu-Gyamfi', role: 'Head of Travel & Logistics', img: 'https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&q=85', color: '#0891b2' },
+  { name: 'Mr. Mark-Hill Ampomah', role: 'I.T Operations Manager', img: 'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=400&q=85', color: '#ea580c' },
 ];
 
 const VALUES = [
-  { icon: <FiTarget size={24}/>, color: '#1a3fa8', title: 'Vision', desc: 'To be the most trusted full-service creative and events consultancy across West Africa and beyond.' },
-  { icon: <FiHeart size={24}/>, color: '#db2777', title: 'Passion', desc: 'Every project we touch is fuelled by genuine love for crafting beautiful, meaningful experiences.' },
-  { icon: <FiZap size={24}/>, color: '#ea580c', title: 'Excellence', desc: 'We hold ourselves to the highest standards — in quality, creativity, and client care.' },
-  { icon: <FiAward size={24}/>, color: '#7c3aed', title: 'Integrity', desc: 'Transparent pricing, honest timelines, and a commitment to delivering exactly what we promise.' },
+  { icon: <FiTarget size={24} />, color: '#1a3fa8', title: 'Vision', desc: 'To be the most trusted full-service creative and events consultancy across West Africa and beyond.' },
+  { icon: <FiHeart size={24} />, color: '#db2777', title: 'Passion', desc: 'Every project we touch is fuelled by genuine love for crafting beautiful, meaningful experiences.' },
+  { icon: <FiZap size={24} />, color: '#ea580c', title: 'Excellence', desc: 'We hold ourselves to the highest standards — in quality, creativity, and client care.' },
+  { icon: <FiAward size={24} />, color: '#7c3aed', title: 'Integrity', desc: 'Transparent pricing, honest timelines, and a commitment to delivering exactly what we promise.' },
 ];
 
 const STATS = [
-  { icon: <FiStar size={22}/>, value: '5★', label: 'Average Rating' },
-  { icon: <FiUsers size={22}/>, value: '150+', label: 'Happy Clients' },
-  { icon: <FiCheckCircle size={22}/>, value: '200+', label: 'Events Delivered' },
-  { icon: <FiAward size={22}/>, value: '5+', label: 'Years of Excellence' },
+  { icon: <FiStar size={22} />, value: '5★', label: 'Average Rating' },
+  { icon: <FiUsers size={22} />, value: '150+', label: 'Happy Clients' },
+  { icon: <FiCheckCircle size={22} />, value: '200+', label: 'Events Delivered' },
+  { icon: <FiAward size={22} />, value: '5+', label: 'Years of Excellence' },
 ];
 
 const MILESTONES = [
-  { year: '2019', title: 'Founded', desc: 'Spica Suite Consult launched in Accra, Ghana with a focus on event photography and planning.' },
+  { year: '2019', title: 'Founded', desc: 'Spica Suite Consult launched in Kumasi, Ghana with a focus on event photography and planning.' },
   { year: '2020', title: 'Digital Expansion', desc: 'Added website design and graphic design services, serving 30+ clients in the first year.' },
   { year: '2021', title: 'Live Streaming', desc: 'Launched live streaming services during the pandemic, reaching audiences across three continents.' },
   { year: '2022', title: 'Travel Division', desc: 'Opened our Travel & Tour division, offering curated packages across Africa and beyond.' },
@@ -37,7 +38,7 @@ export default function About() {
 
   useEffect(() => {
     const els = document.querySelectorAll('.fade-in');
-    const obs = new IntersectionObserver(e => e.forEach(el => { if(el.isIntersecting) el.target.classList.add('visible'); }), { threshold:.15 });
+    const obs = new IntersectionObserver(e => e.forEach(el => { if (el.isIntersecting) el.target.classList.add('visible'); }), { threshold: .15 });
     els.forEach(el => obs.observe(el));
     return () => obs.disconnect();
   }, []);
@@ -61,7 +62,7 @@ export default function About() {
           <div className="about-story__text fade-in">
             <span className="section-pill">Our Story</span>
             <h2>Born from a Love of<br />Creating Memories</h2>
-            <p>Spica Suite Consult was founded with a single mission — to provide world-class creative and consultancy services that leave lasting impressions. Based in Accra, Ghana, we serve clients across West Africa and the diaspora.</p>
+            <p>Spica Suite Consult was founded with a single mission — to provide world-class creative and consultancy services that leave lasting impressions. Based in Kumasi, Ghana, we serve clients across West Africa and the diaspora.</p>
             <p>Our name, <strong>"Spica,"</strong> is the brightest star in the constellation Virgo — a symbol of brilliance, precision, and beauty. Just like that star, we aim to be the brightest light in every project we take on.</p>
             <p>From a two-person startup to a full creative powerhouse with six service lines, every step has been driven by one thing: our clients' smiles when the magic happens.</p>
             <Link to="/contact" className="about-cta-btn">Work With Us <FiArrowRight /></Link>
