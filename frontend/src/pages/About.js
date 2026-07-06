@@ -4,10 +4,11 @@ import { FiTarget, FiHeart, FiZap, FiArrowRight, FiStar, FiUsers, FiCheckCircle,
 import './About.css';
 
 const TEAM = [
-  { name: 'Mr. Achampong Buabeng Jnr', role: 'CEO & Lead Event Planner', img: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&q=85', color: '#1a3fa8' },
-  { name: 'Mrs. Dorothy Achampong-Buabeng', role: 'Head of Media', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=85', color: '#7c3aed' },
-  { name: 'Mr. Derrick', role: 'Head of Photography & Designer', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=85', color: '#db2777' },
-  { name: 'Mr. Edward Adu-Gyamfi', role: 'Head of Travel & Logistics', img: 'https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&q=85', color: '#0891b2' },
+  { name: 'Mr. Acheampong Junior Buabeng', role: 'Chief Executive Officer', img: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&q=85', color: '#9ea7a3' },
+  { name: 'Mrs. Dorothy Darbo Dankwah', role: 'Head of Events Planning', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=85', color: '#7c3aed' },
+  { name: 'Mr. Derrick Afriyie Yeboah', role: 'Head of Travel, Logistics & Media', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=85', color: '#db2777' },
+  { name: 'Mr. Ama Serwaa Adjei', role: 'Head of Travel, Logistics & Media', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=85', color: '#db2777' },
+  { name: 'Mr. Edward Adu-Gyamfi', role: 'Head of Photography & Designer', img: 'https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&q=85', color: '#0891b2' },
   { name: 'Mr. Mark-Hill Ampomah', role: 'I.T Operations Manager', img: 'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=400&q=85', color: '#ea580c' },
 ];
 

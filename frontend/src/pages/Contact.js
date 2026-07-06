@@ -5,7 +5,7 @@ import { FiInstagram, FiFacebook } from 'react-icons/fi';
 import axios from 'axios';
 import './Contact.css';
 
-const SERVICES = ['Media Coverage', 'Website Design', 'Live Streaming', 'Graphic Design', 'Event Planning', 'Travel & Tour'];
+const SERVICES = ['Media Coverage', 'Website Design', 'Live Streaming', 'Graphic Design', 'Event Planning', 'Study Abroad programs', 'Other Services'];
 const BUDGETS = ['Less than GH₵2,000', 'GH₵2,000 – 5,000', 'GH₵5,000 – 10,000', 'GH₵10,000+', 'Prefer not to say'];
 const INITIAL = { name: '', email: '', phone: '', service: '', budget: '', message: '' };
 
